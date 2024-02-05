@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{e2453098-064a-4802-9fc2-347ff7563156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game">
+      <UniqueIdentifier>{45595860-0dd9-41d2-beba-cd96923ac624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Graphic">
+      <UniqueIdentifier>{efc2d454-bc38-473b-9047-cd6f6f74f4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Input">
+      <UniqueIdentifier>{72bede78-765a-44b3-9675-607c50c12f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Sound">
+      <UniqueIdentifier>{f86008d5-12f6-4b30-bcf1-cc7f4970f5fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.c">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.c">
+      <Filter>Sources\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.c">
+      <Filter>Sources\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Sources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Sources\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sources\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
